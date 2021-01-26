@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 # ---------------------------
 position=input("Enter position, for ex. data analyts, accountant, developer: ")
-location=input("Enter location, for ex. Vilnius, Kaunas: ")
+location=input("Enter location, for ex. Vilnius, Kaunas, Klaipeda: ")
 
 def get_url(position, location):
     """Generate URL from position and location"""
